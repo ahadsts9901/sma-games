@@ -1,0 +1,426 @@
+* {
+  font-family: "Josefin Sans", "sans-serif";
+  font-weight: bold !important;
+  outline: none;
+}
+
+body {
+  background-image: url(./assets/background.png);
+  background-repeat: repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  align-items: center;
+  row-gap: 1em;
+  padding: 1em 0.5em;
+  margin: 0em;
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+i,
+a,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0em !important;
+}
+
+.icon {
+  margin-right: 0.5em !important;
+  color: #284352;
+}
+
+row {
+  display: flex;
+  justify-content: center;
+  /* justify-content: space-between; */
+  align-items: center;
+  padding: 1em;
+  column-gap: 1em;
+}
+
+column {
+  display: flex;
+  justify-content: center;
+  /* justify-content: right; */
+  flex-direction: column;
+  align-items: center;
+  padding: 0.5em;
+  row-gap: 1em;
+}
+
+.button {
+  color: #fff;
+  background-color: #284352;
+  width: fit-content;
+  height: 3.3em;
+  border: 0px;
+  padding: 0.8em !important;
+  /* border-radius: 15px; */
+  font-size: 0.8em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button:active {
+  background-color: #284352;
+}
+
+.center {
+  width: 100%;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 0.5em;
+  background-color: #fff;
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  width: 100%;
+}
+
+.input {
+  color: #284352;
+  background-color: #fff;
+  border: 1px solid #284352;
+  /* border-radius: 5px; */
+  padding: 0.5em 0.7em;
+  font-weight: 500 !important;
+  width: 15em;
+}
+
+.input::placeholder {
+  color: #284352;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-wrap: wrap;
+  gap: 1em;
+  padding: 1em;
+  width: 100%;
+  height: 100%;
+}
+
+.round {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  justify-content: space-between;
+  align-items: center !important;
+  border: none;
+  background-color: #f9f9f9;
+  /* background-color: #dadada; */
+  padding: 0.7em 0.5em;
+  width: 7em;
+  height: 8em;
+  border-radius: 20px;
+  font-size: 0.8em;
+  box-shadow: 0px 0px 8px #ccc;
+}
+
+.round div {
+  background-position: center;
+  background-size: 80%;
+  background-repeat: no-repeat;
+  border-radius: 60px;
+}
+
+.round p {
+  width: 100%;
+  text-align: center;
+  font-size: 0.8em;
+  color: #212121;
+}
+
+.no-result {
+  display: none;
+  position: fixed;
+  top: 50%;
+}
+
+a {
+  color: #212121;
+  text-decoration: none !important;
+}
+
+h1 {
+  color: #284352 !important;
+}
+
+/* scrollbars */
+
+::-moz-scrollbar {
+  width: 4px;
+  background-color: #28435200;
+}
+
+::-moz-scrollbar-thumb {
+  width: 4px !important;
+  background-color: #284352;
+  border: none;
+  border-radius: 5px !important;
+}
+
+::-moz-scrollbar-track {
+  width: 4px;
+  background-color: #28435200;
+}
+
+::-webkit-scrollbar-track {
+  width: 4px;
+  background-color: #28435200;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+  background-color: #28435200;
+}
+
+::-webkit-scrollbar-thumb {
+  width: 4px !important;
+  background-color: #284352;
+  border: none;
+  border-radius: 5px !important;
+}
+
+/* setting backgrounds */
+
+.jeeto {
+  background-image: url(./assets/jeeto\ pakistan.png);
+  width: 4.6em;
+  height: 4.6em;
+  margin-top: 0.3em;
+}
+
+.calculator {
+  background-image: url(./assets/calculator.png);
+  width: 5.3em;
+  height: 5.3em;
+}
+
+.birds {
+  background-image: url(./assets/birds\ hunting\ game.jpg);
+  width: 5.3em;
+  height: 5.3em;
+  background-size: 100%;
+}
+
+.translate {
+  background-image: url(./assets/translate.webp);
+  width: 4.3em;
+  height: 4.3em;
+  margin-top: 0.5em;
+}
+
+.bomb {
+  background-image: url(./assets/bomb.avif);
+  width: 4.5em;
+  height: 4.5em;
+  margin-top: 0.3em;
+}
+
+.paint {
+  background-image: url(./assets/drawing\ app.png);
+  width: 4.2em;
+  height: 4.2em;
+  margin-top: 0.5em;
+}
+
+.ludo {
+  background-image: url(./assets/ludo.jpg);
+  width: 4.5em;
+  height: 4.5em;
+  margin-top: 0.5em;
+}
+
+.dare {
+  background-image: url(./assets/dare\ challenge\ game.jpg);
+  width: 4.8em;
+  height: 4.8em;
+  margin-top: 0.4em;
+}
+
+.tetris {
+  background-image: url(./assets/tetris\ game.png);
+  width: 4.5em;
+  height: 4.5em;
+  margin-top: 0.4em;
+}
+
+.google {
+  background-image: url(./assets/google.webp);
+  width: 4.5em;
+  height: 4.5em;
+  margin-top: 0.4em;
+  background-size: 6em !important;
+}
+
+.fruits {
+  background-image: url(./assets/fruits\ game.png);
+  width: 5em;
+  height: 5em;
+  margin-top: 0.4em;
+}
+
+.football {
+  background-image: url(./assets/football\ gama.jpg);
+  width: 4.5em;
+  height: 4.7em;
+  margin-top: 0.4em;
+}
+
+.qr {
+  background-image: url(./assets/qr\ generator.png);
+  width: 4.2em;
+  height: 4.2em;
+  margin-top: 0.6em;
+}
+
+.snake-ladder {
+  background-image: url(./assets/snake\ ladder\ game.webp);
+  width: 4.5em;
+  height: 4.5em;
+  margin-top: 0.5em;
+}
+
+.stopwatch {
+  background-image: url(./assets/stopwatch.jpg);
+  width: 4.5em;
+  height: 4.5em;
+  margin-top: 0.6em;
+}
+
+.rps {
+  background-image: url(./assets/rock\ paper\ scissor.png);
+  width: 4.5em;
+  height: 4.5em;
+  margin-top: 0.6em;
+  background-size: 8em !important;
+}
+
+.weather {
+  background-image: url(./assets/weather.png);
+  width: 4em;
+  height: 4em;
+  margin-top: 0.6em;
+}
+
+.tic-tac-toe {
+  background-image: url(./assets/tic\ tac\ toe.png);
+  width: 4.1em;
+  height: 4.1em;
+  margin-top: 0.6em;
+}
+
+.snake {
+  background-image: url(./assets/snake\ game.png);
+  width: 4.2em;
+  height: 4.2em;
+  margin-top: 0.6em;
+}
+
+.chat-gpt {
+  background-image: url(./assets/chat\ gpt.webp);
+  width: 4.3em;
+  height: 4.3em;
+  margin-top: 0.6em;
+}
+
+.space-fight {
+  background-image: url(./assets/space\ fight.png);
+  width: 4.3em;
+  height: 4.3em;
+  margin-top: 0.6em;
+}
+
+.tower-game {
+  background-image: url(./assets/tower\ game.jpg);
+  width: 3.8em;
+  height: 3.8em;
+  margin-top: 0.8em;
+}
+
+.ms-word {
+  background-image: url(./assets/ms\ word.png);
+  width: 6em;
+  height: 6em;
+}
+
+.ms-excel {
+  background-image: url(./assets/ms\ excel.png);
+  width: 3.6em;
+  height: 3.6em;
+  margin-top: 0.9em;
+}
+
+.blog {
+  background-image: url(./assets/blog\ app.png);
+  width: 7.5em;
+  height: 7.5em;
+}
+
+.memory-game {
+  background-image: url(./assets/memory\ game.png);
+  width: 4.2em;
+  height: 4.2em;
+  margin-top: 0.7em;
+}
+
+.bubble-game {
+  background-image: url(./assets/number\ game.jpg);
+  width: 4.1em;
+  height: 4.1em;
+  margin-top: 0.7em;
+}
+
+.floppy-bird {
+  background-image: url(./assets/floppybird.png);
+  width: 4.5em;
+  height: 4.5em;
+  margin-top: 0.5em;
+}
+
+.typing-game {
+  background-image: url(./assets/typing.jpg);
+  background-size: cover;
+  width: 4.5em;
+  height: 4.5em;
+  margin-top: 0.5em;
+}
+
+.toss {
+  background-image: url(./assets/toss.jpg);
+  width: 4.5em;
+  height: 4.5em;
+  margin-top: 0.8em;
+}
+
+.counter {
+  background-image: url(./assets/counter.png);
+  background-size: cover;
+  width: 4.5em;
+  height: 4.5em;
+  margin-top: 0.7em;
+}
+
+.react-weather {
+  background-image: url(./assets/weather\ 2.jpg);
+  width: 4.5em;
+  height: 4.5em;
+  margin-top: 0.5em;
+}
