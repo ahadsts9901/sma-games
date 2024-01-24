@@ -1,11 +1,13 @@
 * {
-  font-family: "League Spartan", "sans-serif";
+  font-family: "Josefin Sans", "sans-serif";
   font-weight: bold !important;
   outline: none;
 }
 
 body {
-  background-color: #f8fafc!important;
+  background-image: url(./assets/background.png);
+  background-repeat: repeat;
+  background-position: center;
   display: flex;
   flex-direction: column;
   justify-content: right;
@@ -32,7 +34,7 @@ h6 {
 
 .icon {
   margin-right: 0.5em !important;
-  color: #364B63;
+  color: #284352;
 }
 
 row {
@@ -55,8 +57,8 @@ column {
 }
 
 .button {
-  color: #f8fafc;
-  background-color: #364B63;
+  color: #fff;
+  background-color: #284352;
   width: fit-content;
   height: 3.3em;
   border: 0px;
@@ -69,7 +71,7 @@ column {
 }
 
 .button:active {
-  background-color: #364B63;
+  background-color: #284352;
 }
 
 .center {
@@ -82,7 +84,7 @@ form {
   justify-content: center;
   align-items: center;
   padding-top: 0.5em;
-  background-color: #f8fafc;
+  background-color: #fff;
   position: sticky;
   top: 0;
   z-index: 50;
@@ -90,9 +92,9 @@ form {
 }
 
 .input {
-  color: #364B63;
-  background-color: #f8fafc;
-  border: 1px solid #364B63;
+  color: #284352;
+  background-color: #fff;
+  border: 1px solid #284352;
   /* border-radius: 5px; */
   padding: 0.5em 0.7em;
   font-weight: 500 !important;
@@ -100,18 +102,18 @@ form {
 }
 
 .input::placeholder {
-  color: #364B63;
+  color: #284352;
 }
 
 .container {
   display: flex;
   justify-content: center;
+  align-items: start;
   flex-wrap: wrap;
   gap: 1em;
   padding: 1em;
   width: 100%;
-  height: fit-content;
-  margin: auto;
+  height: 100%;
 }
 
 .round {
@@ -121,7 +123,7 @@ form {
   justify-content: space-between;
   align-items: center !important;
   border: none;
-  background-color: #f8fafc!important;
+  background-color: #f9f9f9;
   /* background-color: #dadada; */
   padding: 0.7em 0.5em;
   width: 7em;
@@ -157,41 +159,41 @@ a {
 }
 
 h1 {
-  color: #364B63 !important;
+  color: #284352 !important;
 }
 
 /* scrollbars */
 
 ::-moz-scrollbar {
   width: 4px;
-  background-color: #364B6300;
+  background-color: #28435200;
 }
 
 ::-moz-scrollbar-thumb {
   width: 4px !important;
-  background-color: #364B63;
+  background-color: #284352;
   border: none;
   border-radius: 5px !important;
 }
 
 ::-moz-scrollbar-track {
   width: 4px;
-  background-color: #364B6300;
+  background-color: #28435200;
 }
 
 ::-webkit-scrollbar-track {
   width: 4px;
-  background-color: #364B6300;
+  background-color: #28435200;
 }
 
 ::-webkit-scrollbar {
   width: 4px;
-  background-color: #364B6300;
+  background-color: #28435200;
 }
 
 ::-webkit-scrollbar-thumb {
   width: 4px !important;
-  background-color: #364B63;
+  background-color: #284352;
   border: none;
   border-radius: 5px !important;
 }
